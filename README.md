@@ -16,5 +16,5 @@
 * [JavScript 简史](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/Chapter01/javascript-brief-history.md)
 * [ECMAScript](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/Chapter01/ecmascript.md)
 
-![1-1](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/img/Chapter01/1-1.png)
+![img1-1](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/img/Chapter01/1-1.png)
 #### 持续跟新...
