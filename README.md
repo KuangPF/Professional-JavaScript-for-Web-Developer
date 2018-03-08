@@ -14,5 +14,6 @@
 
 #### 第一章  JavaScript 简介
 * [JavScript 简史](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/Chapter01/javascript-brief-history.md)
+* [ECMAScript](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/Chapter01/ecmascript.md)
 
 #### 持续跟新...

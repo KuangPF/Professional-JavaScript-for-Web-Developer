@@ -28,7 +28,7 @@ international.org/memento/TC39.htm）。TC39 由来自 Netscape、Sun、微软�
 
 * ##### ECMAScript
 
-这个会在后再进行一个详细地介绍，说简单一点，ECMAScript 就是新脚本语言的一种标准，然后各个浏览器厂商就根据这个标准进行开发
+这个会在后再进行一个详细地介绍，说简单一点，ECMAScript 就是新脚本语言的一种标准，然后各个浏览器厂商就根据这个标准进行开发。
 
 * ##### TC39
 
