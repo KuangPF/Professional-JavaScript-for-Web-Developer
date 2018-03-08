@@ -18,5 +18,7 @@
 </html>
 ```
 在 DOM 中，这个页面可以通过下图所示的分层节点图表示。
+
 ![1-2](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/blob/master/img/chapter01/1-2.png)
+
 通过 DOM 创建的这个表示文档的树形图，开发人员获得了控制页面内容和结构的主动权。借助 DOM 提供的 API，开发人员可以轻松自如地删除、添加、替换或修改任何节点。
