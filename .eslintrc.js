@@ -24,7 +24,9 @@ module.exports = {
       'semi': [
         'error',
         'always'
-      ],
+			],
+			'eol-last': 'off',
+			'no-tabs': 'off',
       'space-before-function-paren': 'off',
       'indent': 'off'
     }
