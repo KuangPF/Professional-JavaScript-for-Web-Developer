@@ -16,5 +16,6 @@
 * [JavScript 简史](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/chapter01/javascript-brief-history.md)
 * [ECMAScript](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/chapter01/ecmascript.md)
 * [文档对象模型（DOM）](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/chapter01/dom.md)
+* [浏览器对象模型（BOM）](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/chapter01/bom.md)
 
 #### 持续跟新...
