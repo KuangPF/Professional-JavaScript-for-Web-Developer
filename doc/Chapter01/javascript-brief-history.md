@@ -9,8 +9,10 @@
 
 总结：
 
-* JavaScript1.0 发布时间
+* ##### JavaScript1.0 发布时间
+
 1995年
 
-* JavaScript之父
+* ##### JavaScript之父
+
 布兰登·艾奇（Brendan Eich）
