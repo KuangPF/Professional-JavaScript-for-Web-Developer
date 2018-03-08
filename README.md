@@ -19,6 +19,6 @@
 * [浏览器对象模型（BOM）](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/chapter01/bom.md)
 
 #### 第二章 在 html 中使用 JavaScript
-* [<script> 元素](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/chapter02/script.md)
+* [<script> 元素以及加载顺序问题](https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/tree/master/doc/chapter02/script.md)
 
 #### 持续跟新...
