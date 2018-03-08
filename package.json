@@ -1,0 +1,40 @@
+{
+	"name": "professional-javascript-for-web-developer",
+	"version": "1.0.0",
+	"description": "> 这个 `git` 仓库用于记录 《JavaScript 高级程序设计 （第三版）》的阅读笔记",
+	"main": "index.js",
+	"directories": {
+		"doc": "doc"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/issues"
+	},
+	"homepage": "https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer#readme",
+	"devDependencies": {
+		"babel-eslint": "^8.2.1",
+		"eslint": "^4.15.0",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-config-standard": "^11.0.0-beta.0",
+		"eslint-friendly-formatter": "^3.0.0",
+		"eslint-loader": "^1.9.0",
+		"eslint-plugin-html": "^4.0.1",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-node": "^5.2.1",
+		"eslint-plugin-promise": "^3.6.0",
+		"eslint-plugin-react": "^7.5.1",
+		"eslint-plugin-standard": "^3.0.1",
+		"stylelint": "^9.1.1",
+		"stylelint-config-standard": "^18.2.0"
+	}
+}
