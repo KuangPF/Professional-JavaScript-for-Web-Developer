@@ -1,6 +1,6 @@
 ## 文档对象模型（DOM）
 
-### 什么是文档对象模型
+### 1. 什么是文档对象模型
 
 文档对象模型（DOM，Document Object Model）是针对 XML 但经过扩展用于 HTML 的应用程序编程接口（API，Application Programming Interface）。DOM 把整个页面映射为一个多层节点结构。HTML或 XML 页面中的每个组成部分都是某种类型的节点，这些节点又包含着不同类型的数据。看下面这个 HTML 页面：
 ``` html
