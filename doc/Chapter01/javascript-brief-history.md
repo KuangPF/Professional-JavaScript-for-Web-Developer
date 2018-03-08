@@ -16,7 +16,7 @@ international.org/memento/TC39.htm）。TC39 由来自 Netscape、Sun、微软�
 
 第二年，ISO/IEC（International Organization for Standardization and International ElectrotechnicalCommission，国标标准化组织和国际电工委员会）也采用了 ECMAScript 作为标准（即 ISO/IEC-16262）。自此以后，浏览器开发商就开始致力于将 ECMAScript 作为各自 JavaScript 实现的基础，也在不同程度上取得了成功。
 
-总结：
+### 总结：
 
 * ##### JavaScript1.0 发布时间
 
