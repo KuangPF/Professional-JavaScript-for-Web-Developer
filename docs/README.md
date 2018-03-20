@@ -1,4 +1,4 @@
-## [Professional-JavaScript-for-Web-Developer (JavaScript 高级程序设计 （第三版）)](https://kuangpf.github.io/Professional-JavaScript-for-Web-Developer/#/)
+## Professional-JavaScript-for-Web-Developer (JavaScript 高级程序设计 （第三版）)
 ### 前言
 > 这个 `git` 仓库用于记录 《JavaScript 高级程序设计 （第三版）》的阅读笔记
 
