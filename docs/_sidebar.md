@@ -11,4 +11,4 @@
 
 * 第三章 基本概念
 
-  * [数据类型](chapter02-type-of-data.md)
+  * [数据类型](chapter03-type-of-data.md)

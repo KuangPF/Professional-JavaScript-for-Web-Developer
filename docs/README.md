@@ -19,4 +19,7 @@
 #### 第二章 在 html 中使用 JavaScript
 * [`<script>` 元素以及加载顺序问题](chapter02-script.md)
 
+#### 第三章 基本概念
+  * [数据类型](chapter03-type-of-data.md)
+
 #### 持续更新...
