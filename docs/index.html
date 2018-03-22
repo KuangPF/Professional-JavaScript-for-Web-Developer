@@ -2,49 +2,54 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>professional-javascript-for-web-developer - > 这个 `git` 仓库用于记录 《JavaScript 高级程序设计 （第三版）》的阅读笔记</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <link rel="icon" href="_img/book.ico">
-  <meta name="description" content="> 这个 `git` 仓库用于记录 《JavaScript 高级程序设计 （第三版）》的阅读笔记">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+	<meta charset="UTF-8">
+	<title>professional-javascript-for-web-developer - > 这个 `git` 仓库用于记录 《JavaScript 高级程序设计 （第三版）》的阅读笔记</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="icon" href="_img/book.ico">
+	<meta name="description" content="> 这个 `git` 仓库用于记录 《JavaScript 高级程序设计 （第三版）》的阅读笔记">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+	<style>
+		.markdown-section a {
+			text-decoration: none;
+		}
+	</style>
 </head>
 
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'JavaScript 高级程序设计 （第三版）',
-      repo: 'https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer',
-      loadSidebar: true,
-      maxLevel: 6,
-      subMaxLevel: 1,
-      search: {
-        noData: {
-          '/': '没有结果!'
-        },
-        paths: 'auto',
-        placeholder: {
-          '/': '搜索'
-        }
-      },
-      plugins: [
-        function (hook, vm) {
-          hook.beforeEach(function (html) {
-            var url = 'https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/blob/master/docs/' +
-              vm.route.file
-            var editHtml = '[:memo:  在 Github 上编辑此页！](' + url + ')\n'
-            return editHtml + html;
-          })
-        }
-      ]
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
-  <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
+	<div id="app"></div>
+	<script>
+		window.$docsify = {
+			name: 'JavaScript 高级程序设计 （第三版）',
+			repo: 'https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer',
+			loadSidebar: true,
+			maxLevel: 6,
+			subMaxLevel: 1,
+			search: {
+				noData: {
+					'/': '没有结果!'
+				},
+				paths: 'auto',
+				placeholder: {
+					'/': '搜索'
+				}
+			},
+			plugins: [
+				function (hook, vm) {
+					hook.beforeEach(function (html) {
+						var url = 'https://github.com/KuangPF/Professional-JavaScript-for-Web-Developer/blob/master/docs/' +
+							vm.route.file
+						var editHtml = '[:memo:  在 Github 上编辑此页！](' + url + ')\n'
+						return editHtml + html;
+					})
+				}
+			]
+		}
+	</script>
+	<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+	<script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
 </body>
 
 </html>
