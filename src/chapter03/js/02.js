@@ -1,11 +1,28 @@
-let num1 = 22;
-let num2 = 2;
-let num3 = --num1 + num2; // 23
-let num4 = num1 + num2; // 23
-console.log(num3, num4)
+document.getElementById('input').addEventListener('keyup', function (e) {
+  obj.value = e.target.value;
+})
 
-/* let num1 = 22;
-let num2 = 2;
-let num3 = num1-- + num2; // 24
-let num4 = num1 + num2; // 23
-console.log(num3, num4) */
+let valueDom = document.getElementById('bind');
+
+var obj = {}
+Object.defineProperties(obj, {
+  value: {
+    get: function () {
+      return document.getElementById("input").value
+    },
+    set: function (newValue) {
+      console.log(newValue)
+      valueDom.innerHTML = newValue
+    }
+  }
+})
+
+/* Object.defineProperty(obj, 'value', {
+  get: function () {
+    return document.getElementById("input").value
+  },
+  set: function (newValue) {
+    console.log(newValue)
+    document.getElementById('bind').innerHTML = newValue
+  }
+}) */
