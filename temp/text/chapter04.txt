@@ -1,0 +1,20 @@
+http://www.cnblogs.com/huaan011/p/4381703.html  堆内存的一些了解
+
+https://www.cnblogs.com/ys-ys/p/5300189.html
+
+var obj_a = {value:1};
+function fn_a(arg){
+    arg={value:2};
+};
+fn_a(obj_a);
+// 这时候obj_a还是{value:1}
+function fn_b(arg){
+    arg.value=3;
+};
+fn_b(obj_a);
+// 这时候obj_a是{value:3}
+复制代码
+
+var a = {n:1}; 
+var b = a; 
+a.x = a = {n:2}; 
