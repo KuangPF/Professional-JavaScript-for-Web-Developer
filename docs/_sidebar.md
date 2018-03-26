@@ -12,3 +12,7 @@
 * 第三章 基本概念
 
   * [数据类型](chapter03-type-of-data.md)
+
+* 第四章 变量、作用域和内存管理
+
+	* [基本类型与引用类型](chapter04-basic-reference-type.md)
