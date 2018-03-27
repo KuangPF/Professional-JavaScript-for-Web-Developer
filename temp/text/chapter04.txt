@@ -1,4 +1,4 @@
-http://www.cnblogs.com/huaan011/p/4381703.html  堆内存的一些了解
+﻿http://www.cnblogs.com/huaan011/p/4381703.html  堆内存的一些了解
 
 https://www.cnblogs.com/ys-ys/p/5300189.html
 
@@ -18,3 +18,11 @@ fn_b(obj_a);
 var a = {n:1}; 
 var b = a; 
 a.x = a = {n:2}; 
+
+基本类型在内在中具有固定的大小，而引用类型则不同。例如，对象可以具有任意的长度，无固定大小。数组也是。
+
+基本类型变量存的是数据的具体值，而引用类型变量保存的是值的引用。
+
+https://segmentfault.com/a/1190000008472264  基本数据类型和引用类型的区别详解
+
+https://blog.csdn.net/pingfan592/article/details/55189622 // js 内存
