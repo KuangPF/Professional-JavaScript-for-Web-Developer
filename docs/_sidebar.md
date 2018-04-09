@@ -16,3 +16,9 @@
 * 第四章 &nbsp;&nbsp;变量、作用域和内存问题
 
   * [基本数据类型和引用数据类型](chapter04-basic-reference-data-type.md)
+
+* 第五章 &nbsp;&nbsp;应用类型
+
+* 第六章 &nbsp;&nbsp;面向对象的程序设计
+
+  * [创建对象](chapter06-create-obj.md)
