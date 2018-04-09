@@ -53,3 +53,41 @@ console.log(subType01.getSuperMsg()); // 原型链继承
 
 最后一步才找到了该方法，在找不到属性或方法的情况下，搜索过程总是要一环一环地前行到原型链末端才会停下来。
 
+##### 原型链继承的问题
+原型链继承的问题和利用原型模式创建对象的问题一样，主要有两个：
+
+* 属性被所有实例共享
+* 不能进行参数的传递
+
+例子如下：
+
+``` javascript
+/* 原型链继承 */
+
+function SuperType() {
+	this.msg = '原型链继承';
+	this.color = ['green', 'blue', 'yellow'];
+}
+SuperType.prototype = {
+	getSuperMsg: function () {
+		return this.msg;
+	}
+}
+
+function SubType() {}
+SubType.prototype = new SuperType();
+SubType.prototype.getSubMsg = function () {
+	return this.msg;
+}
+let subType01 = new SubType();
+let subType02 = new SubType();
+subType01.color.push('black');
+console.log(subType01.color); // ["green", "blue", "yellow", "black"]
+console.log(subType02.color); // ["green", "blue", "yellow", "black"]
+```
+问题很容易看出，也正是由于这些问题，在开发当中很少单独使用原型链进行继承。
+
+## 构造函数继承
+
+
+
