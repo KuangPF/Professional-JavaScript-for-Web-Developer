@@ -9,7 +9,7 @@
 * 寄生式继承
 * 寄生组合式继承
 
-本文主要讲解前三种继承方式，后两种作为了解，如要深入研究，可自己看小红书。
+本文主要讲解前三种继承方式，后三种作为了解，如要深入研究，可自己看小红书。
 
 ## 原型链继承
 
@@ -118,3 +118,36 @@ console.log(subType01.msg); // subType01
 ## 组合继承
 
 组合继承（combination inheritance），有时候也叫做伪经典继承，指的是将原型链和借用构造函数的技术组合到一块，从而发挥二者之长的一种继承模式。其背后的思路是使用原型链实现对原型属性和方法的继承，而通过借用构造函数来实现对实例属性的继承。例子如下：
+
+``` javascript
+/* 组合继承 */
+
+function SuperType(msg) {
+	this.color = ['green', 'blue', 'yellow'];
+	this.msg = msg;
+}
+
+SuperType.prototype = {
+	sayMsg: function () {
+		console.log(this.msg);
+	}
+}
+
+function SubType(msg) {
+	SuperType.call(this, msg);
+}
+SubType.prototype = new SuperType();
+
+let subType01 = new SubType('subType01');
+let subType02 = new SubType('subType02');
+
+subType01.color.push('black');
+console.log(subType01.color); // ["green", "blue", "yellow", "black"]
+console.log(subType02.color); // ["green", "blue", "yellow"]
+subType01.sayMsg(); // subType01
+subType02.sayMsg(); // subType02
+console.log(subType01.sayMsg === subType02.sayMsg); // ture
+```
+组合继承避免了原型链和借用构造函数的缺陷，融合了它们的优点，成为 JavaScript 中最常用的继承模式。
+
+原型式继承、寄生式继承和寄生组合式继承作为了解，需要的可以阅读小红书。
