@@ -126,3 +126,32 @@ console.log(ferrar02.price); // ["3,500,000$", "3,600,000$", "3,700,000$", "3,80
 
 ## 组合使用构造函数模式和原型模式
 
+示例代码如下：
+
+``` javascript
+/* 组合构造函数模式和原型模式 */
+
+function Ferrar(color, speed, msg) {
+	this.color = color;
+	this.speed = speed;
+	this.msg = msg;
+	this.price = ['3,500,000$', '3,600,000$', '3,700,000$']
+}
+
+Ferrar.prototype = {
+	constructor: Ferrar,
+	autoDriver: function () {
+		console.log('额外的功能：' + this.msg);
+	}
+}
+let ferrar01 = new Ferrar('red', 350, '自动驾驶');
+let ferrar02 = new Ferrar('red', 350, '定速循环');
+console.log(ferrar01.autoDriver()); // 额外的功能：自动驾驶
+console.log(ferrar02.price); //  ["3,500,000$", "3,600,000$", "3,700,000$"]
+ferrar01.price.push('3,800,000$');
+console.log(ferrar01.price); // ["3,500,000$", "3,600,000$", "3,700,000$", "3,800,000$"]
+console.log(ferrar02.price); // ["3,500,000$", "3,600,000$", "3,700,000$"]
+```
+这种构造函数与原型混成的模式，是目前在 ECMAScript 中使用最广泛、认同度最高的一种创建自定义类型的方法。可以说，这是用来定义引用类型的一种默认模式。
+
+对于动态**原型模式**,**寄生构造函数模式**和**稳妥构造函数模式**这里就不做介绍了，需要的可以阅读一下小红书中的介绍。
