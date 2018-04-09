@@ -89,5 +89,28 @@ console.log(subType02.color); // ["green", "blue", "yellow", "black"]
 
 ## 构造函数继承
 
+构造函数实现继承的思想为：在子类型构造函数的内部调用超类型构造函数。
 
+实例代码如下：
 
+``` javascript
+/*  构造函数继承*/
+
+function SuperType(msg) {
+	this.color = ['green', 'blue', 'yellow'];
+	this.msg = msg;
+}
+
+function SubType(msg) {
+	SuperType.call(this, msg)
+}
+
+let subType01 = new SubType('subType01');
+let subType02 = new SubType();
+subType01.color.push('black');
+console.log(subType01.color); // ["green", "blue", "yellow", "black"]
+console.log(subType02.color); // ["green", "blue", "yellow"]
+console.log(subType01.msg); // subType01
+```
+
+惊不惊喜，意不意外，是不是看上去很简洁。
