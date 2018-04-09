@@ -22,3 +22,4 @@
 * 第六章 &nbsp;&nbsp;面向对象的程序设计
 
   * [创建对象](chapter06-create-obj.md)
+  * [继承](chapter06-inherit.md)
