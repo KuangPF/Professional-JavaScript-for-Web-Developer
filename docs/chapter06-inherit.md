@@ -137,6 +137,7 @@ function SubType(msg) {
 	SuperType.call(this, msg);
 }
 SubType.prototype = new SuperType();
+SubType.prototype.constructor = SubType;
 
 let subType01 = new SubType('subType01');
 let subType02 = new SubType('subType02');
